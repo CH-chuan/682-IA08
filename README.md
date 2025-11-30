@@ -35,11 +35,20 @@ A modern Android drawing application built entirely with **Kotlin** and **Jetpac
 2.  **Open in Android Studio**:
     - Launch Android Studio.
     - Select **Open** and navigate to the cloned directory.
+
 3.  **Sync Gradle**:
     - Allow Android Studio to download dependencies and sync the project.
 4.  **Run the App**:
     - Connect an Android device or start an Emulator.
     - Click the **Run** button (green play icon).
+
+### Command Line
+Alternatively, you can build and install the app using the Gradle wrapper:
+
+```bash
+# Build and install debug APK
+./gradlew installDebug
+```
 
 ## How to Use
 
@@ -49,3 +58,12 @@ A modern Android drawing application built entirely with **Kotlin** and **Jetpac
 4.  **Change Style**: Tap "Solid", "Dashed", or "Dotted" to change the line pattern.
 5.  **Erase**: Tap the "Eraser" button to remove parts of the drawing.
 6.  **Clear**: Tap "Clear Canvas" to remove everything.
+
+## References
+
+The following resources were used to build this prototype:
+
+-   **Jetpack Compose**: [Official Documentation](https://developer.android.com/jetpack/compose)
+-   **Graphics & Drawing**: [Compose Graphics](https://developer.android.com/jetpack/compose/graphics)
+-   **Gestures**: [Detecting Gestures in Compose](https://developer.android.com/jetpack/compose/touch-input/pointer-input)
+-   **Material Design 3**: [Material3 Components](https://developer.android.com/jetpack/compose/designsystems/material3)
